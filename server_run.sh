@@ -2,12 +2,11 @@
 
 # Setup DB or any other environment variables you want to setup.
 # sudo systemctl start mongodb
-npm install
 
-cd MemesApp/client
-npm start
-cd ..
-cd server
+
+cd MemesApp/server
+npm install
 nvm install 14.15.4
 npm start
+
 
